@@ -8,8 +8,7 @@
 - Remove os `\n`
 - Formata o json com base na lib json do python, usando a config de 4 espaços
 - Se o json não for válido mostra um popup de error dentro do proprio sublime
-- Se o json for valido mostra um popup com o json formatado, pedindo confirmação
-- Caso confirmado substitui o texto selecionado, ou se não tiver selecionado, substitui o arquivo inteiro, pelo json formatado
+- Se o json for valido substitui o texto selecionado, ou se não tiver selecionado, substitui o arquivo inteiro, pelo json formatado
 
 ## Add extension to config
 
