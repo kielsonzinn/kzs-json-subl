@@ -1,7 +1,8 @@
 # kzs-json-subl
 
 - Extrai json com base no que esta selecionado, ou se não tiver nada selecionado no arquivo todo
-- Se baseia no primeiro `{` e no ultimo `}` para definir o inicio e final do json
+- Se for um objeto, se baseia no primeiro `{` e no ultimo `}` para definir o inicio e final do json
+- Se for um array, se baseia no primeiro `[` e no ultimo `]` para definir o inicio e final do json
 - Substitui os `\"\"` por `""`
 - Substitui os `\"` por `"`
 - Remove os `\n`
