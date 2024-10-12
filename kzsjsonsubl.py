@@ -47,7 +47,7 @@ class KzsjsonsublCommand(sublime_plugin.TextCommand):
         selected_text = selected_text.replace('\\n', '')
 
         try:
-            formatted_json = json.dumps(json.loads(selected_text), indent=4)
+            formatted_json = json.dumps(json.loads(selected_text), indent=4, ensure_ascii=False)
 
             if not any(not region.empty() for region in selected_regions):
                 self.view.replace(edit, sublime.Region(0, self.view.size()), formatted_json)
